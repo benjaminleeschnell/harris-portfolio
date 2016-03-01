@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Sintony);
+
+p, a, h3 {
+	font-family: 'Sintony';
+}
+
+nav {
+	float: right;
+	margin: 50px 50px 0 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 10px;
+	color: darkslateblue;
+}
+
+/*nav a:nth-of-type(1) {
+	color: rgba(14, 46, 100, 0.7);
+}
+
+nav a:nth-of-type(2) {
+	color: rgba(133, 146, 158, 0.6);
+}
+
+nav a:nth-of-type(3) {
+	color: rgba(14, 128, 28, 0.6);
+}*/
+
+.headline {
+	clear: both;
+	margin: 100px auto 100px auto;
+}
+
+.headline h3 {
+	text-align: center;
+	color: darkslategray;
+}
+
+.headline p {
+	text-align: center;
+	color: darkslategray;
+}
+
+.gallery {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.box {
+	/*height: 400px;*/
+	max-width: 80%;
+	/*background: rgba(25, 25, 112, 0.5);*/
+	margin: 0 auto;
+	border-radius: 3px;
+/*	border: solid darkslategray 2px;*/
+}
+
+.box h3 {
+	padding: 150px 50px;
+	color: white;
+}
+
+.box a {
+	color: white;
+	font-size: 0.7em;
+}
+
+.right {
+	margin-top: 100px;
+	background: rgba(133, 146, 158, 0.6);
+}
+
+/*.left {
+	-webkit-transition: background 1s ease-in;
+	transition: background 1s ease-in;
+	background: rgba(14, 46, 100, 0.7);
+	/*background: darkslateblue;
+}*/
+
+.one {
+	background: 
+    linear-gradient(
+      rgba(14, 46, 100, 0.9),
+      rgba(14, 46, 100, 0.9)
+    ),url('../img/copywriting-edit.jpg');
+    background-size: cover;
+	transition: background 1s ease-in;
+    -webkit-transition: background 1s ease;
+}
+
+.one:hover {
+	background: 
+    linear-gradient(
+      rgba(14, 46, 100, 0.5),
+      rgba(14, 46, 100, 0.5)
+    ),url('../img/copywriting-edit.jpg');
+    background-size: cover;
+    transition: background 1s ease;
+    -webkit-transition: background 1s ease;
+}
+
+.two {
+	background: 
+    linear-gradient(
+      rgba(133, 146, 158, 0.95),
+      rgba(133, 146, 158, 0.95)
+    ),url('../img/ghostwriting-edit.jpg');
+    background-size: cover;
+    transition: background 1s ease;
+    -webkit-transition: background 1s ease;
+}
+
+.two:hover {
+	background: 
+    linear-gradient(
+      rgba(133, 146, 158, 0.6),
+      rgba(133, 146, 158, 0.6)
+    ),url('../img/ghostwriting-edit.jpg');
+    background-size: cover;
+    transition: background 1s ease;
+    -webkit-transition: background 1s ease;
+}
+
+.three {
+	background: 
+    linear-gradient(
+      rgba(14, 46, 100, 0.95),
+      rgba(14, 46, 100, 0.95)
+    ),url('../img/blogging-edited.jpg');
+    background-size: cover;
+	transition: background 1s ease;
+    -webkit-transition: background 1s ease;
+}
+
+.three:hover {
+	background: 
+    linear-gradient(
+      rgba(14, 46, 100, 0.3),
+      rgba(14, 46, 100, 0.3)
+    ),url('../img/blogging-edited.jpg');
+    background-size: cover;
+    transition: background 1s ease;
+    -webkit-transition: background 1s ease;
+}
+
+.four {
+	background: rgba(14, 128, 28, 0.6);
+	/*background: rgba(237, 101, 49, 1);*/
+}
+
+
+
+
